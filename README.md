@@ -29,7 +29,7 @@ Chamamos de alarme falso. Podemos corrigi-lo quando rodamos nosso modelo. Com an
 # Resultados - Ajuste dos dados com Regressão Logística
 
 ## Dados Desequilibrados
-![image](https://user-images.githubusercontent.com/56306657/122309304-6eb2a980-cee4-11eb-9197-cad30a8c7b.png)
+![image](https://user-images.githubusercontent.com/56306657/122310362-9145c200-cee6-11eb-9e1b-1d4111ab8d80.png)
 
 ## Dados Equilibrados
 Under_sampling remove algumas observações da classe que aparecem mais e equilibra com a classe com menos frequência.
@@ -43,7 +43,7 @@ Under_sampling remove algumas observações da classe que aparecem mais e equili
 ![image](https://user-images.githubusercontent.com/56306657/122309507-ca7d3280-cee4-11eb-9dcc-a5fbee70b782.png)
 
 # Conclusão
-No nosso caso, o que importa? Estamos tentando prever se uma pessoa tem alta chance de ter uma parada de coração e imagine que tenha algum tratamento para essas pessoas, a nossa intenção é criar um modelo que para todas as pessoas que precisam de um tratamento o modelo sinalize a classe 1. Logo, precisamos observar a métrica recall, onde calcula a divisão da quantitade que o modelo acerta a classe 1 (VP) dividido pela que o modelo acerta a classe 1 (VP) mais o que o modelo erra na classe 1 (FP). Logo, ficamos com o modelo de Reg. Logística desabalanceados.
+No nosso caso, o que importa? Estamos tentando prever se uma pessoa tem alta chance de ter uma parada de coração e imagine que tenha algum tratamento para essas pessoas, a nossa intenção é criar um modelo que para todas as pessoas que precisam de um tratamento o modelo sinalize a classe 1. Logo, precisamos observar a métrica recall, onde calcula a divisão da quantitade que o modelo acerta a classe 1 (VP) dividido pela que o modelo acerta a classe 1 (VP) mais o que o modelo erra na classe 1 (FP). Logo, ficamos com o modelo de Modelo de Árvore de Decisão com dados balanceados com 90% de recall.
 
 
 
