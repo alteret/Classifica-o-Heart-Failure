@@ -6,14 +6,14 @@ Nesse repositório tentei resolver umproblema de classificação. Apliquei dois 
 
 Neste projeto eu quero prever se alguma pessoa com algumas características tem chance de morte ou não. Mas antes disso, vamos explorar o conjunto de dados.
 
-# Correlação
+# Feature Engineering - Correlação
 A correlação corresponde ao quanto uma variável está conectada com outra. Suponha uma função linear como segue: y = βx, onde y e x são variáveis e β é o coeficiente de inclinação. Quanto maior o β, o x é mais correlacionado com y.
 
 Alta correlação pode prejudicar nosso modelo, então temos que cuidar disso.
 
 Neste projeto vou considerar uma alta correlação que é mais de 70%. Pelo relatório do perfil dos pandas vimos que as variáveis não têm correlações superiores a 70%. A maioria é de 45% com fumo e sexo, veja
 
-# Distribuição
+# Feature Engineering - Distribuição
 A distribuição da variável é importante para nós porque representa a aleatoriedade dos nossos dados. Precisamos de dados distribuídos para ter bens variáveis independentes para prever a nossa variável dependente.
 
 Há duas razões para remover variáveis com baixa distribuição:
