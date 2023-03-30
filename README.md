@@ -1,10 +1,10 @@
 # Classification Heart Failure
-Nesse repositório tentei resolver umproblema de classificação. Apliquei dois modelos (regressão logística e árvore de decisão) e também comparei a performance entre dados balanceados e desbalanceados utilizando o método under sampling.
+Nesse repositório resolve umproblema de classificação. Apliquei dois modelos (regressão logística e árvore de decisão) e também comparei a performance entre dados balanceados e desbalanceados utilizando o método under sampling.
 
 # Dados
 [Link do Kaggle](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data)
 
-Neste projeto eu quero prever se alguma pessoa com algumas características tem chance de morte ou não. Mas antes disso, vamos explorar o conjunto de dados.
+Neste projeto eu irei criar um modelo para prever se uma pessoa com algumas características tem chance de ter ataque do coração ou não. Mas antes disso, vamos explorar o conjunto de dados.
 
 # Feature Engineering - Correlação
 A correlação corresponde ao quanto uma variável está conectada com outra. Suponha uma função linear como segue: y = βx, onde y e x são variáveis e β é o coeficiente de inclinação. Quanto maior o β, o x é mais correlacionado com y.
@@ -43,7 +43,7 @@ Under_sampling remove algumas observações da classe que aparecem mais e equili
 ![image](https://user-images.githubusercontent.com/56306657/122309507-ca7d3280-cee4-11eb-9dcc-a5fbee70b782.png)
 
 # Conclusão
-No nosso caso, o que importa? Estamos tentando prever se uma pessoa tem alta chance de ter uma parada de coração e imagine que tenha algum tratamento para essas pessoas, a nossa intenção é criar um modelo que para todas as pessoas que precisam de um tratamento o modelo sinalize a classe 1. Logo, precisamos observar a métrica recall, onde calcula a divisão da quantitade que o modelo acerta a classe 1 (VP) dividido pela que o modelo acerta a classe 1 (VP) mais o que o modelo erra na classe 1 (FP). Logo, ficamos com o modelo de Modelo de Árvore de Decisão com dados balanceados com 90% de recall.
+Nesse caso, o que importa? Estamos criando um modelo para prever se uma pessoa tem alta chance de ter uma parada cardíaca. Agora imagine que tenha algum tratamento para essas pessoas. A nossa intenção é criar um modelo que para todas as pessoas que precisam de um tratamento o modelo sinalize a classe 1. Logo, precisamos observar a métrica recall, onde calcula a divisão da quantitade que o modelo acerta a classe 1 (VP) dividido pela que o modelo acerta a classe 1 (VP) mais o que o modelo erra na classe 1 (FP). Logo, ficamos com o modelo de Modelo de Árvore de Decisão com dados balanceados com 90% de recall.
 
 
 
